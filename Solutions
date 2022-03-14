@@ -24,11 +24,9 @@ Access the server: ssh bandit0@bandit.labs.overthewire.org -p 2220 #[username: b
 9-10:
 	$strings data.txt | grep == #using strings for READABLE strings, and preceded by serverl "="
 
-10-11:
-	$base64 -d data.txt #-d: decoding, and -e: encoding
-
-11-12:
+bandit11@localhost:
 	$cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+  	$pw: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu 
 
-11-12:
-	
+bandit12@localhost:
+	$ hexdump
